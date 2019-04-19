@@ -405,3 +405,11 @@ a.skipcontent{
   }
 } */
 /*above media query(prefers-reduced-motion:reduce) from Canvas by Colleen*/
+
+iframe:focus { 
+  outline: none;
+}
+
+iframe[seamless] { 
+  display: block;
+}
